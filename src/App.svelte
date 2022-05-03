@@ -1,13 +1,10 @@
 <script>
-	export let name;
+	// export let name;
 </script>
 
 <main>
 	<h1>Hi!</h1>
-	<p>
-		{name}'s blog
-	</p>
-	<h3>🚀🚀</h3>
+	<h3>🚀</h3>
 </main>
 
 <style>
@@ -26,7 +23,7 @@
 	}
 
 	h3 {
-		font-size: 6em;
+		font-size: 4em;
 	}
 
 	@media (min-width: 640px) {
