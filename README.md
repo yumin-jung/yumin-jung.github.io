@@ -1,5 +1,7 @@
 # Blog
 
+### Svelte on GiuHub Pages
 ```zsh
-git subtree push --prefix public/ origin gh-pages
+$ npm run build
+$ git subtree push --prefix public/ origin gh-pages
 ```
