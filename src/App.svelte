@@ -7,6 +7,7 @@
 	<p>
 		{name}'s blog
 	</p>
+	<h3>🚀🚀</h3>
 </main>
 
 <style>
@@ -22,6 +23,10 @@
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
+	}
+
+	h3 {
+		font-size: 6em;
 	}
 
 	@media (min-width: 640px) {
