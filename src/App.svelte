@@ -1,10 +1,16 @@
 <script>
-	// export let name;
+	import * as all from "@fortawesome/fontawesome-free/js/all";
 </script>
 
 <main>
-	<h1>Hi!</h1>
-	<h3>🚀</h3>
+	<h1>Hi~ 🙂</h1>
+	<h2>Have a nice day 🌱</h2>
+
+	<a href="https://github.com/yumin-jung">
+		<button>
+			<i class="fa-brands fa-github" />
+		</button>
+	</a>
 </main>
 
 <style>
@@ -17,13 +23,12 @@
 
 	h1 {
 		color: #505050;
-		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
 	}
 
-	h3 {
-		font-size: 4em;
+	button {
+		border-radius: 16px;
 	}
 
 	@media (min-width: 640px) {
