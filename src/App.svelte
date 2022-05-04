@@ -1,10 +1,15 @@
 <script>
 	import * as all from "@fortawesome/fontawesome-free/js/all";
+	let src = "/image/svelte.png";
 </script>
 
 <main>
 	<h1>Hi~ 🙂</h1>
 	<h2>Have a nice day 🌱</h2>
+	<div>
+		This blog is implemented with
+		<img {src} alt="svelte" style="width: 2%; height: 2%;" />
+	</div>
 
 	<a href="https://github.com/yumin-jung">
 		<button>
@@ -25,6 +30,10 @@
 		color: #505050;
 		font-size: 4em;
 		font-weight: 100;
+	}
+
+	div {
+		font-size: 2em;
 	}
 
 	button {
