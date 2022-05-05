@@ -1,21 +1,24 @@
 <script>
 	import * as all from "@fortawesome/fontawesome-free/js/all";
-	let src = "/image/svelte.png";
 </script>
 
 <main>
 	<h1>Hi~ 🙂</h1>
-	<h2>Have a nice day 🌱</h2>
-	<div>
-		This blog is implemented with
-		<img {src} alt="svelte" style="width: 2%; height: 2%;" />
-	</div>
 
-	<a href="https://github.com/yumin-jung">
-		<button>
-			<i class="fa-brands fa-github" />
-		</button>
-	</a>
+	<h2>Have a nice day 🌱</h2>
+
+	<p>
+		<a href="https://github.com/yumin-jung">
+			<button>
+				<i class="fa-brands fa-github" />
+			</button>
+		</a>
+		<a href="https://www.instagram.com/self_overcoming">
+			<button>
+				<i class="fa-brands fa-instagram" />
+			</button>
+		</a>
+	</p>
 </main>
 
 <style>
@@ -32,12 +35,9 @@
 		font-weight: 100;
 	}
 
-	div {
-		font-size: 2em;
-	}
-
 	button {
-		border-radius: 16px;
+		border-radius: 4px;
+		vertical-align: bottom;
 	}
 
 	@media (min-width: 640px) {
