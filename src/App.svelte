@@ -3,7 +3,12 @@
 </script>
 
 <main>
-	<h2>Have a nice day 🌱</h2>
+	<h2
+		onMouseOver="this.innerHTML= 'Have a wonderful life!! 🚀'"
+		onMouseOut="this.innerHTML='Have a nice day 🌱'"
+	>
+		Have a nice day 🌱
+	</h2>
 
 	<div>
 		<a href="https://github.com/yumin-jung">
@@ -36,6 +41,12 @@
 
 	h2 {
 		color: rgb(44, 44, 46);
+		transition: all 0.8s ease;
+	}
+
+	h2:hover {
+		transform: scale(1.2);
+		cursor: none;
 	}
 
 	button {
