@@ -3,11 +3,9 @@
 </script>
 
 <main>
-	<h1>Hi~ 🙂</h1>
-
 	<h2>Have a nice day 🌱</h2>
 
-	<p>
+	<div>
 		<a href="https://github.com/yumin-jung">
 			<button>
 				<i class="fa-brands fa-github" />
@@ -18,7 +16,7 @@
 				<i class="fa-brands fa-instagram" />
 			</button>
 		</a>
-	</p>
+	</div>
 </main>
 
 <style>
@@ -27,17 +25,33 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
+
+		/*  */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		min-height: 85vh;
 	}
 
-	h1 {
-		color: #505050;
-		font-size: 4em;
-		font-weight: 100;
+	h2 {
+		color: rgb(44, 44, 46);
 	}
 
 	button {
+		background-color: rgb(99, 99, 102);
+		color: rgb(242, 242, 247);
 		border-radius: 4px;
-		vertical-align: bottom;
+		border: none;
+		margin: 0px;
+		padding: 4px 6px;
+		font-size: 16px;
+		cursor: pointer;
+		transition: all 0.2s linear;
+	}
+
+	button:hover {
+		transform: scale(1.2);
 	}
 
 	@media (min-width: 640px) {
