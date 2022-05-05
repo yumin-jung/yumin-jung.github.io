@@ -41,6 +41,8 @@
 	button {
 		background-color: rgb(99, 99, 102);
 		color: rgb(242, 242, 247);
+		width: 28px;
+		height: 28px;
 		border-radius: 4px;
 		border: none;
 		margin: 0px;
