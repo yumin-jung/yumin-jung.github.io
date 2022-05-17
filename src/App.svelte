@@ -46,7 +46,6 @@
 
 	h2:hover {
 		transform: scale(1.2);
-		cursor: none;
 	}
 
 	button {
