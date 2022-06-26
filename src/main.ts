@@ -2,9 +2,9 @@ import App from './App.svelte';
 
 const app = new App({
 	target: document.body,
-	// props: {
-	// 	name: 'yumin'
-	// }
+	props: {
+		name: 'yumin'
+	}
 });
 
 export default app;
